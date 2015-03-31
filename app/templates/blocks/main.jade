@@ -1,0 +1,84 @@
+section.main-info
+	h1.main-title
+	<!--Обёртка для .bl-info .bl-skills-->
+	.bl-anketa
+		<!--Блок для ввода персональной информации-->
+		.bl-info
+			.row
+				label.row__label(for='name') Полное ФИО
+				input#name(type='text', value='Мухаметгараев Эмиль Айратович', placeholder="Иванов Иван Иванович")
+				.clear
+			.row
+				label.row__label(for='year') Год рождения
+				input#year(type='text', value='1991', placeholder="1990")
+				.clear
+			.row
+				label.row__label(for='address') Место жительства
+				input#address(type='text', value='г.Казань, Россия', placeholder="г. Иваново, Россия")
+				.clear
+			.row
+				label.row__label(for='skype') Скайп
+				input#skype(type='text', value='Emil M (Kazan)', placeholder="ivanov")
+				.clear
+			.row
+				label.row__label(for='email') Почта
+				input#email(type='email', value='emil-e@yandex.ru', placeholder="ivanov@gmail.com")
+				.clear
+			<!--Блок с радио-кнопками-->
+			.row.academ
+				p.academ-label Выпускник				
+					a.academ-label__link(href="http://htmlacademy.ru", target="_blank") htmlacademy.ru
+				p.academ-radio
+					input#r-yes(name='is-academy', type='radio' hidden)
+					label(for="r-yes") Да
+					input#r-no(name='is-academy', type='radio' hidden checked)
+					label(for="r-no") Нет					
+				.clear
+		<!--/Блок для ввода персональной информации -->
+
+		<!--Обёртка для .bl-chk .bl-java-->
+		.bl-skills
+			h3.skills-title Практические навыки
+			.skills-text. Отметьте только те технологии и типы задач, с которыми вы хорошо знакомы. Отсутсвие опыта отнюдь не означает, что у вас меньше шансов стать нашим сотрудником. Это означает, что вы будете получать те задачи, с которыми гарантировано будете справляться.
+
+			<!--  Блок с чекбоксами -->
+			.bl-chk
+				<!-- Первая колонка -->
+				.bl-chk__column
+					.bl-chk__column-item.checked Методология БЭМ
+					.bl-chk__column-item.checked jQuery
+					.bl-chk__column-item.checked Использую GRUNT
+					.bl-chk__column-item HAML
+					.bl-chk__column-item.checked SASS
+					.bl-chk__column-item LESS
+					.bl-chk__column-item CoffeeScript
+				<!-- Вторая колонка -->
+				.bl-chk__column
+					.bl-chk__column-item.checked Jade
+					.bl-chk__column-item.checked Stylus
+					.bl-chk__column-item Знаю (изучаю) Angular
+					.bl-chk__column-item.checked Верстка под Android
+					.bl-chk__column-item Верстка под iOS
+					.bl-chk__column-item Верстка под Windows Phone
+				<!-- Третяя колонка -->
+				.bl-chk__column
+					.bl-chk__column-item Верстка рассылок
+					.bl-chk__column-item.checked Адаптивная верстка
+					.bl-chk__column-item.checked Использую Dropbox
+					.bl-chk__column-item.checked Использую Gmail
+					.bl-chk__column-item.checked Использую GitHub
+				.clear
+			<!--/Блок с чекбоксами-->
+
+			<!--Обёртка слайдера-->
+			.bl-java
+				h3.java-title Уровень владения JavaScript
+				#slider
+				ul.java-descr
+					li Не владею
+					li Использую готовые решения
+					li Использую готовые решения<br>и умею их переделывать
+					li Пишу сложные скрипты
+			<!--/Обёртка для .bl-chk .bl-java-->		
+			.clear
+	<!--/Обёртка для .bl-info .bl-skills-->

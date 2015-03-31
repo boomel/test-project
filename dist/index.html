@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="imagetoolbar" content="no">
+		<meta name="msthemecompatible" content="no">
+		<meta name="cleartype" content="on">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="format-detection" content="address=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="application-name" content="CSSSR Project Template">
+		<meta name="msapplication-tooltip" content="A template for a quick start.">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/mstile-large.png">
+		<meta name="msapplication-starturl" content="https://csssr.github.io/csssr-project-template/">
+		<title>CSSSR Project Template</title>
+		<meta name="description" content="A template for a quick start.">
+		<meta name="keywords" content="csssr, project, template, frontend, gulp, jade, stylus">
+		<meta name="copyright" content="©CSSSR">
+		<link href="/assets/styles/common.css?1427693328638" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="main">
+			<header class="header">
+				<div class="logo"><img src="assets/images/main-logo.png" alt="Логотип CSSSR" height="52" width="147">
+					<p>Секретный архив учреждения</p>
+				</div>
+				<div class="stamp"></div>
+				<div class="clear"></div>
+			</header>
+			<section class="main-info">
+				<h1 class="main-title"></h1>
+				<!--Обёртка для .bl-info .bl-skills-->
+				<div class="bl-anketa">
+					<!--Блок для ввода персональной информации-->
+					<div class="bl-info">
+						<div class="row">
+							<label for="name" class="row__label">Полное ФИО</label>
+							<input id="name" type="text" value="Мухаметгараев Эмиль Айратович" placeholder="Иванов Иван Иванович">
+							<div class="clear"></div>
+						</div>
+						<div class="row">
+							<label for="year" class="row__label">Год рождения</label>
+							<input id="year" type="text" value="1991" placeholder="1990">
+							<div class="clear"></div>
+						</div>
+						<div class="row">
+							<label for="address" class="row__label">Место жительства</label>
+							<input id="address" type="text" value="г.Казань, Россия" placeholder="г. Иваново, Россия">
+							<div class="clear"></div>
+						</div>
+						<div class="row">
+							<label for="skype" class="row__label">Скайп</label>
+							<input id="skype" type="text" value="Emil M (Kazan)" placeholder="ivanov">
+							<div class="clear"></div>
+						</div>
+						<div class="row">
+							<label for="email" class="row__label">Почта</label>
+							<input id="email" type="email" value="emil-e@yandex.ru" placeholder="ivanov@gmail.com">
+							<div class="clear"></div>
+						</div>
+						<!--Блок с радио-кнопками-->
+						<div class="row academ">
+							<p class="academ-label">Выпускник <a href="http://htmlacademy.ru" target="_blank" class="academ-label__link">htmlacademy.ru</a></p>
+							<p class="academ-radio">
+								<input id="r-yes" name="is-academy" type="radio" hidden>
+								<label for="r-yes">Да</label>
+								<input id="r-no" name="is-academy" type="radio" hidden checked>
+								<label for="r-no">Нет </label>
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+					<!--/Блок для ввода персональной информации -->
+					<!--Обёртка для .bl-chk .bl-java-->
+					<div class="bl-skills">
+						<h3 class="skills-title">Практические навыки</h3>
+						<div class="skills-text">Отметьте только те технологии и типы задач, с которыми вы хорошо знакомы. Отсутсвие опыта отнюдь не означает, что у вас меньше шансов стать нашим сотрудником. Это означает, что вы будете получать те задачи, с которыми гарантировано будете справляться.</div>
+						<!--  Блок с чекбоксами -->
+						<div class="bl-chk">
+							<!-- Первая колонка -->
+							<div class="bl-chk__column">
+								<div class="bl-chk__column-item checked">Методология БЭМ</div>
+								<div class="bl-chk__column-item checked">jQuery</div>
+								<div class="bl-chk__column-item checked">Использую GRUNT</div>
+								<div class="bl-chk__column-item">HAML</div>
+								<div class="bl-chk__column-item checked">SASS</div>
+								<div class="bl-chk__column-item">LESS</div>
+								<div class="bl-chk__column-item">CoffeeScript</div>
+							</div>
+							<!-- Вторая колонка -->
+							<div class="bl-chk__column">
+								<div class="bl-chk__column-item checked">Jade</div>
+								<div class="bl-chk__column-item checked">Stylus</div>
+								<div class="bl-chk__column-item">Знаю (изучаю) Angular</div>
+								<div class="bl-chk__column-item checked">Верстка под Android</div>
+								<div class="bl-chk__column-item">Верстка под iOS</div>
+								<div class="bl-chk__column-item">Верстка под Windows Phone</div>
+							</div>
+							<!-- Третяя колонка -->
+							<div class="bl-chk__column">
+								<div class="bl-chk__column-item">Верстка рассылок</div>
+								<div class="bl-chk__column-item checked">Адаптивная верстка</div>
+								<div class="bl-chk__column-item checked">Использую Dropbox</div>
+								<div class="bl-chk__column-item checked">Использую Gmail</div>
+								<div class="bl-chk__column-item checked">Использую GitHub</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<!--/Блок с чекбоксами-->
+						<!--Обёртка слайдера-->
+						<div class="bl-java">
+							<h3 class="java-title">Уровень владения JavaScript</h3>
+							<div id="slider"></div>
+							<ul class="java-descr">
+								<li>Не владею</li>
+								<li>Использую готовые решения</li>
+								<li>Использую готовые решения
+									<br>и умею их переделывать</li>
+								<li>Пишу сложные скрипты</li>
+							</ul>
+						</div>
+						<!--/Обёртка для .bl-chk .bl-java-->
+						<div class="clear"></div>
+					</div>
+				</div>
+				<!--/Обёртка для .bl-info .bl-skills-->
+			</section>
+			<footer class="footer">
+				<label for="date" class="date-label">Дата заполнения</label>
+				<input id="date" type="text" value="15.03.2015" placeholder="01.01.2014" class="date-input">
+			</footer>
+		</div>
+		<script src="/assets/scripts/debug.js?1427693328638"></script>
+		<script src="/assets/scripts/common.min.js?1427693328638"></script>
+	</body>
+
+</html>

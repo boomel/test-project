@@ -1,0 +1,147 @@
+.container
+	+from-width(541px)
+		display table
+		
+.main-title
+	width 221px
+	height 118px
+	margin 0 auto
+	background url("../images/main-title.png") no-repeat center center 
+
+.bl-anketa
+	padding-top 37px
+	padding-left 107px
+	padding-right 121px
+	font-weight bold
+
+.row__label
+	float left	
+	margin-top 38px
+	margin-right 17px	
+	font-size 1.39em
+	white-space nowrap
+
+input[type="text"],
+input[type="email"]
+	float left
+	margin-top 17px
+	padding 0 12px 7px 12px
+	font 1.875em/1.2em Courier New
+	background transparent url("../images/input-border.png") no-repeat 0% 100%
+	outline none
+	border none
+
+#name
+	width: 628px
+
+#year
+	width 615px
+
+#address
+	width 577px
+
+#skype,
+#email
+	width 696px
+	background-image url("../images/input-border-long.png")
+
+.academ
+	padding 45px 0
+	p
+		float left
+		
+.academ-label
+	font-size 1.39em
+	white-space nowrap
+
+.academ-label__link
+	font bold 1.4rem PT Sans
+	color #014f98
+	
+.academ-radio
+	margin-left 32px
+
+input[type="radio"]:not(old)
+	width 28px
+	margin 0
+	padding 0
+	opacity 0
+
+input[type="radio"] + label:not(old)
+	display inline-block
+	margin-right 45px
+	padding-left 36px
+	width 27px
+	height 27px
+	background url("../images/sprite.png") no-repeat 0 0
+	background-position -0px -49px
+	font-size 1.38em
+
+input[type="radio"]:checked + label:not(old)
+	background-position 0px -3px
+
+.skills-title
+	padding-bottom 10px
+	font-size 1.39em
+
+.bl-skills
+	position relative
+
+.skills-text
+	padding-left 15px
+	padding-bottom 28px
+	position relative
+	font-size 0.875em
+	line-height 1.57em
+	font-weight lighter
+	color #3d3d3d
+	&:before
+		content "*"
+		position absolute
+		left 0
+		top 0.2em
+		font-size 2.25rem
+		line-height 0.611em
+		font-weight normal		
+
+.bl-chk
+	padding-bottom 80px
+
+.bl-chk__column
+	width 33%
+	float left
+
+.bl-chk__column-item
+	height 32px
+	padding-left: 32px;
+	padding-top: 5px;
+	background url("../images/sprite.png") no-repeat -6px -145px
+	font-size 1.3125em
+	line-height 1.19em
+	color #000
+	cursor pointer
+	
+.checked
+	background-position -6px -100px	
+
+.bl-java,
+.java-title
+	padding-bottom 40px
+
+.java-title
+	font-size 1.39em
+
+.java-descr li
+	display inline-block
+	vertical-align top
+	font-size 0.8125em
+	line-height 1.46em
+	
+.java-descr li:first-of-type
+	width 18.5%
+.java-descr li:nth-of-type(2)
+	width 28.5%
+.java-descr li:nth-of-type(3)
+	width 32%	
+.java-descr li:nth-of-type(4)
+	width 18%
